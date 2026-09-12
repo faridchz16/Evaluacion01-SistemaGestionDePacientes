@@ -55,12 +55,12 @@ El proyecto se desarrolló siguiendo una arquitectura por capas (Controlador, Se
 
 ---
 
-## 📸 Evidencias del Funcionamiento 
+## 📸 Evidencias del Funcionamiento (Pantallazos)
 
 ### 1. Base de Datos (MySQL / SQLyog)
 *Visualización de los registros iniciales y las tablas del sistema (`pacientes`, `contactos_emergencia`, `atenciones_resumen`).*
 
-![Base de Datos](src/screenshots/bd_pacientes.png)
+![Base de Datos](src/screenshots/bd_pacientes.jpeg)
 
 ---
 
@@ -69,21 +69,21 @@ El proyecto se desarrolló siguiendo una arquitectura por capas (Controlador, Se
 #### A. Consulta de Historial de Atenciones (RF-PAC-07)
 *Petición `GET /api/pacientes/1/atenciones` retornando status `200 OK` con las atenciones del paciente.*
 
-![Postman Atenciones](src/screenshots/postman_get_atenciones.png)
+![Postman Atenciones](src/screenshots/postman_get_atenciones.jpeg)
 
 #### B. Actualización de Paciente (RF-PAC-08)
 *Petición `PUT /api/pacientes/2` actualizando datos de contacto sin alterar restricciones de integridad.*
 
-![Postman Actualizar](src/screenshots/postman_put_paciente.png)
+![Postman Actualizar](src/screenshots/postman_put_paciente.jpeg)
 
 #### C. Validación de Documento Duplicado (RF-PAC-02)
 *Petición `POST /api/pacientes` intentando registrar un número de documento ya existente (`400 Bad Request`).*
 
-![Postman Duplicado](src/screenshots/postman_post_duplicado.png)
+![Postman Duplicado](src/screenshots/postman_post_duplicado.jpeg)
 
 ---
 
 ### 3. Ejecución FrontEnd (Navegador Web)
 *Interfaz gráfica en funcionamiento mostrando la consulta por ID, la tabla de atenciones y el registro de un nuevo paciente.*
 
-![Frontend Ejecución](src/screenshots/frontend_ejecucion.png)
+![Frontend Ejecución](src/screenshots/frontend_ejecucion.jpeg)
